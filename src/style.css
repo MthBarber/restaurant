@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:ivory;
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#content {
+    width: 100vw;
+    height: 105vh;
+    background-image: url('home2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 0.4rem;
+    position: sticky;
+    
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.link:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#lineBreak {
+    color: white;    
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-weight: 800;
+    margin-top: 5rem;
+}
+
+#description {
+    width:50%;
+    margin: 17rem auto auto auto;
+    font-size: medium;
+    color: black;
+    font-size: 1.4rem;    
+    height: 8rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* Menu Page Styling */
+#menuContainer {
+    height: 75vh;
+    width: 70vw;    
+    margin: 5rem auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*Menu Items */
+
+.menuItems {    
+    height: 28vh;
+    width: 18vw;
+    background-color: rgba(0,0,0,0.2);
+    margin: auto;
+    font-size: 12px;
+    
+    
+    
+    
+}
+
+.menuItems img {
+    height: 15vh;
+    width: 15vw;
+    margin: 1rem auto auto auto;
+    border: 1px solid white;
+}
+
+.menuItems p {
+    width: 13vw;
+    text-align: center;    
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+
+/*Contact Page */
+#contactContent {
+    height: 50vh;
+    width: 70vw;    
+    margin: 5rem auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#staffPictures {
+    height: 18vh;
+    width: 60vw;    
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#managerPicture {
+    height: 17vh;
+    width: 14vw;
+    border: 2px solid white;
+    
+}
+
+#chefPicture {
+    height: 17vh;
+    width: 14vw;
+    border: 2px solid white;
+}
+
+#ownerPicture {
+    height: 17vh;
+    width: 14vw;
+    border: 2px solid white;
+}
+
+#staffBios {
+    height: 18vh;
+    width: 60vw;   
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.staffBios {
+    height: 17vh;
+    width:17vw;
+    font-size: 0.9rem;
+    padding: 1rem;    
+    background-color: rgba(0, 0, 0, 0.192);
+    padding-top: 2.2rem;
+    font-size: 1.1rem;
+}
+
+/*contact details page*/
+
+#contactDetailsDiv {
+    height: 15vh;    
+    width: 60vw;    
+    margin: 3rem auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+
+.scrim, .header, .links, #contactDetailsDiv {
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.027);
+    box-shadow: 0 0 5rem rgba(0, 0, 1, 0.336);
+}
+
+
+
